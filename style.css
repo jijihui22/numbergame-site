@@ -1,0 +1,68 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-image: url(image/game_backimage.png);
+    color: cornflowerblue;
+}
+.container{    
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FCFFA6;
+    text-align: center
+}
+.title{
+    font-weight: bolder;
+    margin-top: 4vh
+}
+.sub-Title{
+    font-weight: bolder;
+    margin: 2vh 0 3vh 0
+}
+.result-Text{
+    font-weight: bolder;
+    margin: 1vh 0 2vh 0
+}
+.userLine{
+    display: flex;
+    justify-content: center
+}
+.num-Btn{
+    width: 40vh;
+    height: 7vh
+}
+.go-Btn{
+    width: 11vh;
+    height: 7vh;
+    border-radius: 4vh;
+    background-color:#B5DEFF;
+    font-size: 1.4em;
+    font-weight: bolder;
+    border: 1px solid;
+}
+.reset-Btn{
+    margin: 2vh 0 2vh 0;
+    width: 14vh;
+    height: 7vh;
+    border-radius: 4vh;
+    background-color:#C1FFD7;
+    font-size: 1.4em;
+    font-weight: bolder;
+    border: 1px solid 
+}
+
+@media screen and (max-width: 48rem){
+.title{
+    font-size: 1.6em;
+}
+.go-Btn{
+    margin-top: 2vh;
+    }  
+.main-Img {
+    width: 70vw;
+  }
+}
